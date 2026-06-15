@@ -1,0 +1,103 @@
+PRIVACY POLICY - SHORT VERSION (For App Store Display)
+
+KOLORS KLUB App Privacy Policy - Summary
+
+Last Updated: June 15, 2026
+
+---
+
+1. WHAT DATA DO WE COLLECT?
+
+The app collects the following information that you provide:
+• Customer name, address, and phone number
+• Your notes and remarks
+
+This data is stored locally on your device only.
+All other data is retrived from our own registered customers data from our server.
+
+---
+
+2. HOW DO WE USE YOUR DATA?
+
+Your data is used only to:
+• Create new quotation.
+• Generate PDF reports with your specifications.
+• Allow you to share PDFs through your chosen method.
+
+---
+
+3. WHO DO WE SHARE YOUR DATA WITH?
+
+We do NOT share your data with anyone. Your data only leaves your device if:
+• YOU choose to share a PDF document (you select the recipient)
+• YOU choose to navigate to external websites
+
+---
+
+4. WHAT THIRD-PARTY LIBRARIES DO WE USE?
+
+Library Name | Purpose | Data Sent Off-Device?
+PDF Library | Create documents | NO
+File Management | Store files locally | NO
+Share Function | Enable sharing | ONLY when you choose to share
+PDF Viewer | Display documents | NO
+Localization | Language support | NO
+Animations | UI effects | NO
+Notifications | Show alerts | NO
+
+---
+
+5. DO WE USE ANALYTICS OR TRACKING?
+
+NO. We do not use:
+• Google Analytics
+• Firebase Analytics
+• Crash reporting (unless explicitly opted in)
+• User behavior tracking
+• Advertising networks
+
+---
+
+6. IS MY DATA BACKED UP?
+
+• iOS: Data may be included in iCloud backups (controlled by your device settings)
+• Android: Data may be included in Google backups (controlled by your device settings)
+• You can disable app-specific backups in your device settings
+
+---
+
+7. CAN I DELETE MY DATA?
+
+YES. You can:
+• Delete individual customer profiles
+• Delete all data by uninstalling the app
+• Manage shared PDFs yourself
+
+---
+
+8. WHAT ABOUT CHILDREN?
+
+This app is not intended for users under 13 years old.
+
+---
+
+9. YOUR PRIVACY RIGHTS
+
+You have the right to:
+• Access all your data (view in app)
+• Correct your data (edit in app)
+• Delete your data (delete in app)
+• Export your data (generate PDF)
+
+---
+
+10. CONTACT US
+
+Questions about privacy?
+Email: servicekult@kolorsworld.com
+
+---
+
+SUMMARY: Your data stays on your device. We don't track you, share data, or use analytics. You control everything.
+
+For the complete privacy policy, see PRIVACY_POLICY.md
