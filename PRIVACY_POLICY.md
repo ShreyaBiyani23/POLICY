@@ -1,253 +1,157 @@
 # Privacy Policy for KULT App
 
-**Last Updated:** May 12, 2026
+**Last Updated:** September 15, 2026
 
-## 1. Overview
+## 1. Introduction
 
-KULT App ("App") is committed to protecting your privacy and ensuring you have a positive experience on our platform. This Privacy Policy explains what personal data we collect, how we use it, and how we protect it.
+This Privacy Policy explains how KULT App ("we," "our," or "the App") handles personal information and configuration data that you provide while using the App. The App is designed as a local-first tool for managing customer details, room and board specifications, and PDF documentation.
 
----
-
-## 2. User Data Collection
-
-### 2.1 Data Directly Collected from Users
-
-The following user data is collected through the App and stored locally on your device:
-
-#### Customer Information:
-- **Full Name** - Required for customer profile and documentation
-- **Address** - Required for customer records
-- **Email Address** - Required for communication and customer identification
-- **Phone Number** - Required for contact purposes
-- **Interior Designer Name** - Optional, for project attribution
-
-#### Room & Board Configuration Data:
-- **Room Names** - User-defined room identifiers
-- **Board Specifications:**
-  - Board names and sizes (2-18 module boards)
-  - KULT range selection (KULT or KULT NXT)
-  - Board color selections
-  - Slot type selections (2 Switch Master, 2 Switch Slave, 4 Switch Slave, 20A Switch, 4 Switch, Light Dimmer, Fan Regulator, Blind Controllers, Accessories, Bell Push)
-  - Driver selections (1-4 drivers per load)
-  - Appliance type selections
-  - Load type selections (Wattage, Ampere, Tonnage)
-  - Load limit values
-- **Remarks** - User-provided notes and specifications
-
-#### Generated Documents:
-- **PDF Files** - Complete specifications including all customer and configuration data listed above
-
-### 2.2 Data Collection Method
-
-All data is collected through:
-- Text input fields for customer information
-- Dropdown menus for selections
-- User interactions with the application interface
-- PDF generation from collected data
-
-**Data Storage Location:** All data is stored locally on the user's device. The App does NOT store data on external servers unless explicitly shared by the user.
+We are committed to keeping your information private and to collecting only what is necessary to provide the App's core functionality.
 
 ---
 
-## 3. Third-Party Libraries and SDKs
+## 2. Information We Collect
 
-The following libraries and SDKs are used in the App and may interact with data:
+The App may collect the following information when you use it:
 
-### 3.1 Libraries Used and Their Data Practices
+### 2.1 Customer and Project Information
+- Full name
+- Address
+- Email address
+- Phone number
+- Interior designer name (optional)
+- Project or customer notes
 
-| Library | Purpose | Data Transmitted | Transmission Details |
-|---------|---------|------------------|---------------------|
-| **pdf** v3.11.3 | PDF generation and document creation | None off-device | Operates entirely locally; generates PDFs from user data on the device |
-| **path_provider** v2.1.5 | Device file system path management | None | Provides local file paths; no external communication |
-| **share_plus** v12.0.0 | Native sharing functionality | User-controlled | Shares files/data only when user explicitly selects share option; destination determined by user's choice (email, messaging, cloud storage, etc.) |
-| **syncfusion_flutter_pdfviewer** v29.1.38 | PDF viewing and document display | None | Displays PDFs locally; no external data transmission |
-| **intl** v0.20.2 | Internationalization and date formatting | None | Provides localization services; operates locally |
-| **animate_do** v4.2.0 | UI animations | None | Provides animation functionality; no data transmission |
-| **flutter_toast_message_bar** v0.0.8 | User notifications | None | Displays local notifications; no external transmission |
+### 2.2 Room and Board Configuration Data
+- Room names
+- Board names and sizes
+- Product range selection such as KULT or KULT NXT
+- Board color selections
+- Slot type selections
+- Driver selections
+- Appliance and load type details
+- Wattage, amperage, tonnage, and load limit information
+- Remarks and specification notes
 
-### 3.2 Data NOT Transmitted to Third Parties by Libraries
+### 2.3 Generated Documents
+- PDF documents created from the customer and configuration data you enter in the App
 
-**Important:** The libraries used in this App do NOT automatically transmit any user data to external servers, analytics platforms, or third parties. The only data transmission occurs when:
-
-1. **User explicitly shares a PDF** through the native share dialog (user controls destination)
-2. **User opens URLs** using url_launcher (if implemented)
-3. **User navigates to webpages** (if implemented)
-
----
-
-## 4. Server-to-Third-Party Data Transfer
-
-### 4.1 Current Implementation
-
-The KULT App currently has **NO backend server infrastructure** for data storage or transfer. All operations are performed locally on the user's device.
-
-### 4.2 Firebase Status
-
-While Firebase Cloud Firestore is available as an optional dependency (currently commented out in the codebase), it is **NOT actively used** in the current version of the App. If Firebase integration is added in future versions, users will be notified and this Privacy Policy will be updated.
-
-### 4.3 Third-Party Data Transfers
-
-**Data is NOT transferred to third parties** except when:
-- User explicitly chooses to share a PDF document
-- User selects a specific destination (email, messaging app, cloud storage, etc.)
-- In these cases, the user's device's native sharing mechanism is used, and the user controls the recipient
+### 2.4 Device Information
+The App may access device-level information required for normal operation, such as local file access and system sharing features. This information is used only to perform the functions requested by the user and is not used for advertising or tracking.
 
 ---
 
-## 5. WebView Data Collection
+## 3. How We Use Your Information
 
-### 5.1 WebView Usage
+We use the information collected in the App to:
+- Create and manage customer records
+- Save room and board configuration data
+- Generate PDF reports and documents
+- Allow the user to review, edit, and share project documentation
+- Provide the core functionality of the App
 
-The KULT App **does NOT currently use WebViews**. Users are not exposed to in-app web browsing that could collect additional data.
-
-### 5.2 URL Navigation
-
-If any URL navigation is implemented in future versions:
-- Users will be navigated to external websites using the device's default web browser
-- Standard browser privacy policies of those external websites will apply
-- The App does NOT track or collect data from external websites
+We do not use your personal data for marketing, profiling, analytics, or advertising.
 
 ---
 
-## 6. Data Security and Protection
+## 4. Data Storage and Processing Location
 
-### 6.1 Local Storage Security
+The App stores user data locally on the device where it is installed. In the current version of the App, there is no active backend or cloud database used for customer data storage.
 
-- All user data is encrypted at rest on the user's device using standard iOS/Android encryption
-- PDF files are stored in temporary directories and can be managed by the user
-- No data is transmitted over the internet unless explicitly shared by the user
-
-### 6.2 User Control
-
-- Users have complete control over all data in the App
-- Users can delete customer profiles and room configurations at any time
-- Users can export data via PDF sharing to their chosen destination
-- Deleting data from the App removes it from the device
-
-### 6.3 Data Backup
-
-- iOS: Data may be included in iCloud backups if iCloud backup is enabled on the user's device
-- Android: Data may be included in Google Drive backups if enabled on the user's device
-- Users can disable app-specific backups in their device settings
+This means:
+- Your information is primarily stored on your device
+- Your project data is not routinely transmitted to our servers
+- We do not operate a central user database for this App
 
 ---
 
-## 7. Data Retention
+## 5. Third-Party Services and Libraries
 
-### 7.1 Retention Policy
+The App may use platform features and software libraries for local document handling and sharing. These components are used only to support the App's functionality, such as PDF generation, local file access, and document sharing.
 
-- **Active Data:** User data remains stored as long as the App is installed and the user maintains the data
-- **Deleted Data:** When users delete customer profiles or configurations, data is immediately removed from the App
-- **App Uninstall:** All App data is automatically removed when the App is uninstalled
+The App does not use advertising networks, user tracking tools, analytics SDKs, or third-party behavioral profiling services.
 
-### 7.2 Shared PDFs
+Examples of local functionality may include:
+- PDF generation
+- Local file access and saved document handling
+- Native sharing through the device's operating system
 
-- PDFs generated and shared by users are no longer under the App's control once shared
-- Users are responsible for managing shared documents according to their own privacy requirements
-
----
-
-## 8. User Rights and Choices
-
-### 8.1 Data Access
-
-Users can access all their data at any time by:
-- Viewing customer information in the App
-- Reviewing room and board configurations
-- Generating and downloading PDF reports
-
-### 8.2 Data Modification
-
-Users can:
-- Edit all customer information
-- Modify room and board configurations
-- Update load specifications and appliance selections
-
-### 8.3 Data Deletion
-
-Users can:
-- Delete individual customer profiles
-- Delete specific rooms or boards
-- Delete the entire App and all associated data
-
-### 8.4 Opt-Out Options
-
-- Users can choose NOT to share PDFs or any data
-- Users can disable app-specific iCloud/Google Drive backup in device settings
-- Users can uninstall the App at any time
+Any transmission of data through these features occurs only when you choose to share content through your device or a selected app, such as email, messaging, or cloud storage.
 
 ---
 
-## 9. Age Restrictions
+## 6. Sharing of Information
 
-The KULT App is designed for professional and business use. The App is **not intended for users under 13 years of age**. We do not knowingly collect data from children under 13.
+We do not sell, rent, or share your personal information for marketing purposes.
 
----
+Your data may leave your device only in the following limited circumstances:
+- You explicitly choose to share a PDF or project file using the device's share sheet
+- You choose to send exported documents to a third-party app or service
+- You use an external website or app outside the App after navigating away from it
 
-## 10. California Privacy Rights (CCPA)
-
-If you are a California resident, you have the following rights under the California Consumer Privacy Act (CCPA):
-
-1. **Right to Know:** You can request information about personal data collected
-2. **Right to Delete:** You can request deletion of personal data
-3. **Right to Opt-Out:** You can opt-out of data sales (none occur in this App)
-4. **Right to Non-Discrimination:** You will not be discriminated against for exercising your rights
-
-To exercise these rights, contact us at the email provided below.
+When you share files, the destination is controlled by you. We do not automatically send your files to any third party.
 
 ---
 
-## 11. European Privacy Rights (GDPR)
+## 7. Security
 
-If you are an EU resident, you have the following rights under the General Data Protection Regulation (GDPR):
+We take reasonable steps to protect your information, including using device-level security and local storage practices available through the operating system. However, no method of electronic storage or transmission is completely risk-free.
 
-1. **Right of Access:** You can access your personal data at any time within the App
-2. **Right of Rectification:** You can correct inaccurate personal data
-3. **Right of Erasure:** You can request deletion of your data
-4. **Right of Portability:** You can export your data as PDFs
-5. **Right to Object:** You can object to data processing
-
-To exercise these rights, contact us at the email provided below.
+You are responsible for protecting access to your device, app data, and any exported files that you choose to share.
 
 ---
 
-## 12. Changes to This Privacy Policy
+## 8. Data Retention
 
-We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. When we make material changes, we will:
+We retain your information for as long as it remains necessary for the App's functionality or until you delete it.
 
-- Update the "Last Updated" date at the top of this policy
-- Notify users through the App or via email if changes significantly affect data collection practices
+You may delete customer records, room data, configuration information, and generated PDFs from the App when appropriate. If you uninstall the App, data stored locally on the device may be removed according to the device's normal uninstall behavior and operating system rules.
 
-Continued use of the App after changes constitutes acceptance of the updated Privacy Policy.
-
----
-
-## 13. Contact Us
-
-If you have questions about this Privacy Policy or our privacy practices, please contact us:
-
-**Company:** KULT (Kolors Unlimited Limited)  
-**Email:** privacy@kultapp.com  
-**Address:** [Company Address]  
-**Phone:** [Company Phone Number]
+Files that you have already shared outside the App are no longer under our control and may be retained by the receiving party.
 
 ---
 
-## 14. Appendix: Data Flow Diagram
+## 9. Your Rights and Choices
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    KULT App Data Flow                       │
-└─────────────────────────────────────────────────────────────┘
+You have control over the data you enter into the App. You may:
+- Edit your information at any time
+- Delete customer profiles or room configurations
+- Remove saved data from the App
+- Choose whether to share exported PDFs or project files
+- Disable device-level backups if your phone or tablet supports that option
 
-User Input
-   ↓
-[Customer Information] → [Local Device Storage]
-[Room Configuration]   → [Local Device Storage]
-[Board Settings]       → [Local Device Storage]
-   ↓
-[PDF Generation] → [Temporary Storage]
-   ↓
+If you do not want to share information, you may simply avoid using the built-in share feature.
+
+---
+
+## 10. Children's Privacy
+
+The App is not intended for children under the age of 13, and we do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided personal information, we will take steps to delete it.
+
+---
+
+## 11. Changes to This Policy
+
+We may update this Privacy Policy from time to time to reflect changes in the App, legal requirements, or operational practices. If a material change is made, the "Last Updated" date at the top of this policy will be revised.
+
+Your continued use of the App after changes are posted means that you accept the updated Privacy Policy.
+
+---
+
+## 12. Contact Us
+
+If you have any questions about this Privacy Policy or how your information is handled, please contact us:
+
+**Company:** Kolors Unlimited Limited  
+**Email:** servicekult@kolorsworld.com  
+**Phone:** +91 98765 43210
+
+---
+
+## 13. Summary
+
+In short, the App is designed to keep your project and customer data on your device. We do not operate a user-tracking system, do not sell your personal information, and do not use advertising or analytics to monitor your activity. We only process your data to provide the App's functionality and to support your choice to share files when you explicitly decide to do so.
+
 [User Sharing Decision]
    ├─→ [Share PDF] → [User's Selected Destination]
    │                  (Email, Drive, Messaging, etc.)
